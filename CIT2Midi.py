@@ -11,7 +11,7 @@ if __name__ == "__main__":
     Output_MIDI = sys.argv[3]
 
     
-    print("--- 🎵 CIT to Midi v.0.5 🎶 ---") # to check Version
+    print("--- 🎵 CIT to Midi v.0.5.1 🎶 ---") # to check Version
     print()
 
 
@@ -300,6 +300,9 @@ LetzterTick = currentTick
 #temp Fix: einfach immer 4/4 Takt:
 AllMidi_events.append((int(LetzterTick / 2),MetaMessage('marker', text='BEAT_4/4', time=0)))
 
+#temp Fix: Loop Points an Start und letzten Tick
+AllMidi_events.append((int(0),MetaMessage('marker', text='LoopStart', time=0)))
+AllMidi_events.append((int(LetzterTick),MetaMessage('marker', text='LoopEnd', time=0)))
 
 
 ## Harfe als Instrument setzen
