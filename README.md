@@ -34,7 +34,7 @@ A drag and drop batch file is included.
 
 ## Structure
 
-[The note structure corresponds to this](https://github.com/Louiskovski/MIDI-to-BMS-Converter?tab=readme-ov-file#-timing-and-cit-data-generation). This way, you can also use this tool to convert MIDI directly back to CIT and BMS for testing purposes.
+[The note structure corresponds to this](https://github.com/Louiskovski/MIDI-to-BMS-Converter?tab=readme-ov-file#-timing-and-cit-data-generation). This way, you can also use this tool to convert MIDI directly back to CIT and BMS for testing purposes. (Required at least version v.0.9.9.4.2 !!)
 
 ## Additional notes
 - Loop positions are currently placed only at the beginning and end of the entire song, since VGMTrans does not extract them.
