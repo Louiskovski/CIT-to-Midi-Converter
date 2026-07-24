@@ -1,6 +1,13 @@
 # CIT-to-Midi-Converter
 Converts CIT (chord Information table) files used in *Super Mario Galaxy* games and *Donkey Kong Jungle Beat* (and maybe more?) in combination with extracted Midis from BMS to a readable Midi file.
 
+## Preparation
+You need:
+* **Python**
+* **Mido Python Module**
+
+To install Mido, open command line and enter ***pip install mido*** 
+
 ## Usage
 Command line usage:
 `python CIT2Midi.py Input.mid Input.cit Output.mid`
