@@ -37,7 +37,7 @@ A drag and drop batch file is included.
 [The note structure corresponds to this](https://github.com/Louiskovski/MIDI-to-BMS-Converter?tab=readme-ov-file#-timing-and-cit-data-generation). This way, you can also use this tool to convert MIDI directly back to CIT and BMS for testing purposes.
 
 ## Additional notes
-- Loop positions are currently not included in the MIDI file, since VGMTrans does not extract them.
+- Loop positions are currently placed only at the beginning and end of the entire song, since VGMTrans does not extract them.
 - The tool cannot currently detect the specific time signature; therefore, only a **BEAT_4/4** marker is inserted into the extracted MIDI. If the song uses a different time signature and you wish to convert it back to CIT and BMS using the MIDI-to-BMS converter, you must open the MIDI file in a DAW and adjust the marker name.
 - There are special cases (e.g., the *Good Egg Galaxy* theme) involving time signature changes during the song. Consequently, the time signature sections in the extracted MIDI might not align correctly, even if the note positions themselves are accurate.
   - A potential downside of this is that, upon conversion back to CIT and BMS, the resulting BMS file may be significantly larger because it is more difficult to compress.
