@@ -1,5 +1,7 @@
 # CIT-to-Midi-Converter
-Converts CIT (chord Information table) files used in *Super Mario Galaxy* games and *Donkey Kong Jungle Beat* (and maybe more?) in combination with extracted Midis from BMS to a readable Midi file.
+Converts CIT (chord Information table) files used in *Super Mario Galaxy* games in combination with extracted Midis from BMS to a readable Midi file.
+
+ *Donkey Kong Jungle Beat* support is coming soon.
 
 ## Preparation
 You need:
